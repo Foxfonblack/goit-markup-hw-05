@@ -222,9 +222,7 @@ justify-content: center;
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.advantages-img-list-item {
 
-}
 .advantages-img-icon {
   margin: 24px 100px;
 }
@@ -306,6 +304,15 @@ justify-content: center;
   row-gap: 48px;
   
 }
+.project-link {
+  display: block;
+}
+
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .list-card-portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
   
@@ -320,6 +327,7 @@ justify-content: center;
   text-align: left;
   margin-bottom: 8px;
 }
+
 /* Social links our team*/
 .social-list.List {
   display: flex;
@@ -348,6 +356,7 @@ justify-content: center;
 }
 .social-list-link:hover, .social-list-link:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--success-messages-color);
   }
 /* Customers Section */
 
@@ -362,7 +371,7 @@ justify-content: center;
 
 .customers-list-icon {
   margin: 16px 32px;
-  fill: green;
+  fill: currentColor
 }
 
 
@@ -414,6 +423,8 @@ fill: #404bbf;
 
 .social-media-text {
   margin-bottom: 16px;
+  color: var(--light-mode-background-color);
+  width: 264px;
 }
 .logo-plus-footer {
   color: var(--accent-color-secondary);
@@ -424,6 +435,19 @@ fill: #404bbf;
   margin-right: 20px;
   
  
+}
+.footer-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+}
+.footer-list-link:hover,
+.footer-list-link:focus {
+  background-color: var(--success-messages-color);
 }
 .social-list-item {
   gap: 24px;
@@ -438,9 +462,7 @@ fill: #404bbf;
   margin-bottom: 16px;
 }
 /* Social links footer */
-.cocial-media-footer{
 
-}
 
 /* .social-list-link-instagram {
 background-image: url();
