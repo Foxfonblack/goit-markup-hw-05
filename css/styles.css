@@ -154,7 +154,7 @@ img {
 /* --- Hero --*/
 .hero {
   background-size: cover;
-  max-width: ;
+  max-width: 1400px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--primary-color-text);
