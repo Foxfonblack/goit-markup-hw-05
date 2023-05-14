@@ -401,6 +401,7 @@ justify-content: center;
   align-items: center;
   color: var(--helper-text-color);
   border: 1px solid var(--helper-text-color);
+  fill: #f4f4fd;
 }
 .customers-list-item {
   width: calc((100% - 120px) / 6);
