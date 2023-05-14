@@ -8,18 +8,7 @@
   --light-mode-background-color: #f4f4fd;
   --success-messages-color: #404bbf;
   
-  --logo-brand-color: #4d5ae5;
-  --pressed-state-color: #404bbf;
-  --body-brand-color: #2e2f42;
-  --success-messages-color: #31d0aa;
-  --body-text-color: #434455;
-  --helper-text-color: #8e8f99;
-  --subtle-background-color: #e7e9fc;
-  --light-mode-background-color: #FFFFFF;
-  --overlay-color: #2e2f42;
-  --hero-color: #2e2f42;
-  --page-background-color: #ffffff;
-  --modal-background-color: #fcfcfc;
+  
 
 }
 body {
@@ -142,7 +131,7 @@ img {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--pressed-state-color);
+  color: #404bbf;
 }
 .address-link {
   font-style: normal;
@@ -157,7 +146,7 @@ img {
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--pressed-state-color);;
+  color: #404bbf;
 }
 
 /* -- Header -- */
@@ -207,7 +196,7 @@ img {
 }
 .modal-open-hero-button:hover,
 .modal-open-hero-button:focus {
-  background-color: var(--pressed-state-color);
+  background-color: #404bbf;
 }
 .hero-button {
   padding: 12px 24px;
@@ -224,7 +213,7 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   color: #ffffff;
-  background-color: var(--pressed-state-color);
+  background-color: #404bbf;
   border: 1px solid transparent;
 }
 /* -- Hero -- */
@@ -372,7 +361,7 @@ justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--pressed-state-color);
+  background-color: #404bbf
 
 }
 .social-list-link:hover .social-list-icon {
@@ -429,7 +418,7 @@ justify-content: center;
 }
 
 .customers-list-icon:hover {
-fill: var(--pressed-state-color);
+fill: #404bbf;
 }
 /* -- Footer --*/
 .footer-style {
@@ -445,18 +434,16 @@ fill: var(--pressed-state-color);
    .footer-wrapper {
     margin-right: 120px;
    }
-.description-footer-desc {
-  font-weight: 500px;
-  line-height: 1.5px;
-  letter-spacing: 0.02em;
+.description footer-desc {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em
+  
 }
 .social-media-text {
   margin-bottom: 16px;
   color: var(--light-mode-background-color);
   width: 264px;
- 
-
-
 }
 .logo-plus-footer {
   color: var(--accent-color-secondary);
