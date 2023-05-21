@@ -140,6 +140,7 @@ button:focus {
 .menu-link:focus {
   color: var(--pressed-state-color);
   
+}
 
 /* .menu-link:hover:after {
   content: '';
