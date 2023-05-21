@@ -470,7 +470,7 @@ button:focus {
 
 .social-media-text {
   margin-bottom: 16px;
-  padding-left: 28px;
+  
   font-weight: 500;
   color: var(--page-background-color);
 }
