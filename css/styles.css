@@ -554,7 +554,7 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc(100% / 9 - 24px);
-  padding-bottom: 120px;
+  
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -602,7 +602,7 @@ button:focus {
 .project-link:hover .overlay,
 .project-link:focus .overlay {
   transform: translateY(0%);
-  transition: var(--time-function);
+  
 
 }
 .portfolio-card-content {
